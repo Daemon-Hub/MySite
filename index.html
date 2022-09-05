@@ -8,14 +8,17 @@
     <meta name="keywords" content="html, resume, sait, css">
     <meta name="description" content="Это сайт для резьюме!">
     <title>K.I.M</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Кертов Ислам</h1>
-    <img src="imgs/img_1.jpg" alt="Моё фото" width="100">
+    <header>
+        <h1>Кертов Ислам</h1>
+    </header>
+    <img src="imgs/img_1.jpg" alt="Моё фото" width="300">
     <hr>
-    <p><em>Привет!</em> Я ученик 11 класса сельской школы.</p>
-    <p>И я люблю заниматся <strong>программированием :3</strong></p>
+    <p>Привет! Я ученик 11 класса сельской школы.</p>
+    <p>И я люблю заниматся программированием :3</p>
     <hr>
     <h3>Мои хоби</h3>
     <ol>
@@ -24,8 +27,10 @@
         <li>Оптимазация своего смартфона</li>
     </ol>
     <hr>
-    <h3>Опыт работы</h3>
-    <table width="260">
+    
+    <table class="table"> 
+        <header style="text-decoration: line-through; font-weight: 1000;" >Опыт работы</header>
+        <header style="font-weight: 1000;">Мои увлечения</header>
         <thead>
             <tr>
                 <th>Название</th>
@@ -54,21 +59,21 @@
     <hr>
     <h3>Связаться со мной</h3>
     <form>
-        <div>
+        <div class="input name">
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите имя">
         </div>
-        <div>
+        <div class="input email">
             <label for="email">Ваш email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-        <div>
+        <div class="input message">
             <label for="message">Ваше сообщение:</label>
             <br>
-            <textarea name="message" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            <textarea name="message" id="message" cols="30" rows="9" placeholder="Введите сообщение..."></textarea>
         </div>
-        <div>
-            <button type="submit">Отправить!</button>
+        <div class="button submit">
+            <button type="submit" id="butsub">Отправить!</button>
         </div>
     </form>
 

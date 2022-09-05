@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-color: bisque;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#name {
+    line-height: 21px;
+    width: 25pc;
+}
+#email {
+    line-height: 21px;
+    width: 52%;
+}
+#message {
+    font-size: 30px;
+} 
