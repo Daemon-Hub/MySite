@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
-    background-color: bisque;
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     font-style: italic;
     font-weight: normal;
+    background-img: url(https://get.wallhere.com/photo/abstract-galaxy-space-sky-stars-glowing-space-art-cube-planetary-rings-universe-vortex-graphics-1920x1080-px-computer-wallpaper-fractal-art-special-effects-outer-space-electric-blue-782063.jpg);
 }
 
 #name {
