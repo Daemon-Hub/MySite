@@ -12,7 +12,7 @@ body {
 #myphoto {
     position: relative;
     left: 31%; 
-    bottom: 3pc;
+    bottom: 30vw;
     border-radius: 10vw;
     width: 33vw;
 }
