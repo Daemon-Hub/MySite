@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-color: rgb(112, 185, 190);
+    font-family: 'Pacifico', cursive;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: normal;
+    color: #fff;
+    
+}
+
+#myphoto {
+    position: relative;
+    left: 31%; 
+    bottom: 3pc;
+    border-radius: 10vw;
+    width: 33vw;
+}
+
+#name {
+    line-height: 21px;
+    width: 40%;
+}
+
+#email {
+    line-height: 21px;
+    width: 40%;
+}
+
+#message {
+    font-size: 30px;
+
+}
+
+#butsub {
+    position: relative;
+    left: 3px;
+    bottom: 59px;
+}
+
+.title {
+    border: 2px dashed aquamarine;
+    background-color: aquamarine;
+    border-radius: 10vw;
+    margin-bottom: 1vw;
+
+}
+
+.about {
+    border: 2px solid rgb(238, 32, 18);
+    background-color: rgb(238, 32, 18);
+    margin-bottom: 1vw;
+    border-radius: 10vw;
+}
+
+.hobby {
+    border: 2px solid rgb(236, 115, 16);
+    background-color: rgb(236, 115, 16);
+    margin-bottom: 1vw;
+    border-radius: 10vw;
+}
+.hobbytitle {
+    margin-left: 4vw;
+
+}
+.hobbylist {
+    margin-left: 3vw;    
+}
+
+.table {
+    border: 2px solid rgb(235, 191, 48);
+    background-color: rgb(235, 191, 48);
+    margin-bottom: 1vw;
+    border-radius: 10vw;
+}
+.tablehead {
+    margin-right: 3vw;
+}
+.tablebody {
+    margin-left: 3vw;
+}
+
+.inputs {
+    border: 2px solid rgb(199, 233, 47);
+    background-color: rgb(199, 233, 47);
+    margin-bottom: 1vw;
+    border-radius: 10vw;
+}
+.inputname {
+    margin-left: 1vw;
+    width: 120vw;
+    position: relative;
+    bottom: 1vw;
+}
+.inputemail {
+    margin-left: 1vw;
+    width: 120vw;
+    position: relative;
+    bottom: 1vw;
+}
+.inputmessage {
+    margin-left: 1vw;
+    column-span: none;
+}
+.buttonsubmit {
+    margin-left: 2vw;
+    position: relative;
+    bottom: 7vw;
+}
+
+.connection {
+    border: 2px solid rgb(97, 250, 117);
+    background-color: rgb(97, 250, 117);
+    margin-bottom: 1vw;
+    margin-right: 2vw;  
+    border-radius: 10vw;
+}
+
